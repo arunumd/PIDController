@@ -17,7 +17,7 @@ int main()
 
     PID1.setKd(/*Kd value*/);
 
-    PID.setSetPoint(/*SetPoint value*/);
+    PID1.setSetPoint(/*SetPoint value*/);
 
     return 0;
 }
