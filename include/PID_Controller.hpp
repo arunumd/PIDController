@@ -27,14 +27,14 @@ private:
 public:
 	/*Default constructor for class PidController*/
 	PidController(double Param_kp, double Param_ki, double Param_kd, \
-		          double default_currentSpeed, double default_currentTime, double default_desiredSpeed): {
-		kp = Param_kp; /*Set the initial kp from args*/
-		ki = Param_ki; /*Set the initial ki from args*/
-		kd = Param_kd; /*Set the initial kd from args*/
-		currentSpeed = default_currentSpeed; /*Set the currentSpeed from args*/
-		currentTime = default_currentTime; /*Set the currentTime from args*/
-		gain = default_desiredSpeed; /*Set the gain from args*/
-	}
+		          double default_currentSpeed, double default_currentTime, double default_desiredSpeed):
+		kp (Param_kp), /*Set the initial kp from args*/
+		ki (Param_ki), /*Set the initial ki from args*/
+		kd (Param_kd), /*Set the initial kd from args*/
+		currentSpeed (default_currentSpeed), /*Set the currentSpeed from args*/
+		currentTime (default_currentTime), /*Set the currentTime from args*/
+		gain (default_desiredSpeed) /*Set the gain from args*/
+	{}
 
 	~PidController(); /*Default destructor for PidController class*/
 
