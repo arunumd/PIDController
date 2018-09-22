@@ -1,7 +1,17 @@
-# C++ Boilerplate
-[![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
+# PID Controller
+[![Build Status](https://travis-ci.org/arunumd/PIDController.svg?branch=master)](https://travis-ci.org/arunumd/PIDController)
+[![Coverage Status](https://coveralls.io/repos/github/arunumd/PIDController/badge.svg?branch=master)](https://coveralls.io/github/arunumd/PIDController?branch=master)
 ---
+
+## Authors
+
+For Part 1
+Navigator - arunumd
+Driver    - zzimits
+
+For Part 2
+Navigator - zzimits
+Driver    - arunumd
 
 ## Overview
 
@@ -12,8 +22,7 @@ Simple starter C++ project with:
 
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/dpiet/cpp-boilerplate
-cd <path to repository>
+git clone https://github.com/arunumd/PIDController.git
 mkdir build
 cd build
 cmake ..
