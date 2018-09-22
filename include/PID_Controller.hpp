@@ -26,7 +26,7 @@ private:
 	double gain = 1;  /**<The calculated controller output */
 public:
 	/*Default constructor for class PidController*/
-	PidController(double Param_kp, double Param_ki, double Param_kd,
+	PidController(double Param_kp, double Param_ki, double Param_kd, \
 		          double default_currentSpeed, double default_currentTime, double default_desiredSpeed): {
 		kp = Param_kp; /*Set the initial kp from args*/
 		ki = Param_ki; /*Set the initial ki from args*/
