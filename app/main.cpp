@@ -11,13 +11,13 @@ int main()
 {
     PidController PID1 (5.0, 5.0, 5.0, 500.0, 17.0, 675.0); /*Instantiation of PIDController type object*/
 
-    PID1.setKp(/*kp value*/);
+    PID1.setKp(5.0); /*The args should be kp value*/
 
-    PID1.setKi(/*Ki value*/);
+    PID1.setKi(5.0); /*The args should be ki value*/
 
-    PID1.setKd(/*Kd value*/);
+    PID1.setKd(5.0); /*The args should be kd value*/
 
-    PID1.setSetPoint(/*SetPoint value*/);
+    PID1.setSetPoint(675.0); /*The args should be setpoint value*/
 
     return 0;
 }

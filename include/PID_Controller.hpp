@@ -36,7 +36,7 @@ public:
 		gain (default_desiredSpeed) /*Set the gain from args*/
 	{}
 
-	~PidController(); /*Default destructor for PidController class*/
+	~PidController(){}; /*Default destructor for PidController class*/
 
 	double calculateGain(const double currentSpeed, const double currentTime);/**Calculate controller gain*/
 	void setKp(const double kp); /**Updates kp value*/
