@@ -24,6 +24,7 @@ private:
 	double currentTime =0;  /**<Time passed in by the user */
 	double setPoint = 65;  /**<Reference Speed */
 	double gain = 1;  /**<The calculated controller output */
+  double sumOfErrors = 0; /**Sum of previous errors */
 public:
 	/*Default constructor for class PidController*/
 	PidController(double Param_kp, double Param_ki, double Param_kd, \
