@@ -10,8 +10,8 @@ Navigator - arunumd
 Driver    - zzimits
 
 For Part 2
-Navigator - zzimits
-Driver    - arunumd
+Navigator - AdarshJS
+Driver    - s-niket
 
 ## Overview
 
