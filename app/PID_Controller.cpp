@@ -26,30 +26,31 @@ double PidController::calculateGain(const double currentSpeed,
   return gain;
 }
 
+/*
 void PidController::setKp(const double kp) {
-	/**
-	 *  Updates the proportional gain
-	 */
+
+ // Updates the proportional gain
+
   this->kp = kp;
 }
 
 void PidController::setKi(const double ki) {
-	/**
-		 *  Updates the integral gain
-		 */
+
+ // Updates the integral gain
   this->ki = ki;
 }
 
 void PidController::setKd(const double kd) {
-	/**
-	 *  Updates the derivative gain
-	 */
+
+ // Updates the derivative gain
+
   this->kd = kd;
 }
 
 void PidController::setSetPoint(const double setPoint) {
-	/**
-	 *  Updates the setPoint
-	 */
+
+ //  Updates the setPoint
+
   this->setPoint = setPoint;
 }
+ */
