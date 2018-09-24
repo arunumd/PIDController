@@ -28,6 +28,7 @@ Need updated class diagram to incorporate changes
 
 Need a block diagram showing the basic design of the system (A PID controller block in a control loop)
 
+Change the name of the 'computeGain()' to 'computeControllerOutput()' to be logically correct
 
 ## Overview
 
