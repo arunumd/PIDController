@@ -13,6 +13,22 @@ For Part 2
 Navigator - AdarshJS
 Driver    - s-niket
 
+## Notes 
+
+Added a data member: 'sumOfErrors' in include/PID_Controller.hpp to incorporate sum of all previous errors needed 
+for integration of errors.
+
+To increase the coverage, we commented out the set methods in the app/PID_Controller.cpp as they were redundant for this application
+
+## TODO 
+
+Need better test cases to test the code accuracy. Can include a convergence test when the compute method is iterated over time. 
+
+Need updated class diagram to incorporate changes
+
+Need a block diagram showing the basic design of the system (A PID controller block in a control loop)
+
+
 ## Overview
 
 Simple starter C++ project with:
