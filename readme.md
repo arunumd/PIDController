@@ -1,6 +1,6 @@
 # PID Controller
-[![Build Status](https://travis-ci.org/arunumd/PIDController.svg?branch=master)](https://travis-ci.org/arunumd/PIDController)
-[![Coverage Status](https://coveralls.io/repos/github/arunumd/PIDController/badge.svg?branch=master)](https://coveralls.io/github/arunumd/PIDController?branch=master)
+[![Build Status](https://travis-ci.org/s-niket/PIDController.svg?branch=master)](https://travis-ci.org/s-niket/PIDController)
+[![Coverage Status](https://coveralls.io/repos/github/s-niket/PIDController/badge.svg?branch=master)](https://coveralls.io/github/s-niket/PIDController?branch=master)
 ---
 
 ## Authors
@@ -10,8 +10,25 @@ Navigator - arunumd
 Driver    - zzimits
 
 For Part 2
-Navigator - zzimits
-Driver    - arunumd
+Navigator - AdarshJS
+Driver    - s-niket
+
+## Notes 
+
+Added a data member: 'sumOfErrors' in include/PID_Controller.hpp to incorporate sum of all previous errors needed 
+for integration of errors.
+
+To increase the coverage, we commented out the set methods in the app/PID_Controller.cpp as they were redundant for this application
+
+## TODO 
+
+Need better test cases to test the code accuracy. Can include a convergence test when the compute method is iterated over time. 
+
+Need updated class diagram to incorporate changes
+
+Need a block diagram showing the basic design of the system (A PID controller block in a control loop)
+
+Change the name of the 'computeGain()' to 'computeControllerOutput()' to be logically correct
 
 ## Overview
 

@@ -1,3 +1,8 @@
+/*
+ *  @authors - arunumd; and zzimits
+ *  @copyright, 2018 - GNU Licence
+ *  @Brief - Main function for running Gtest
+ */
 #include <gtest/gtest.h>
 
 int main(int argc, char** argv) {
