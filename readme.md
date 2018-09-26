@@ -5,22 +5,22 @@
 
 ## Authors
 
-For Part 1
-Navigator - arunumd
-Driver    - zzimits
+**For Part 1**<br />
+Navigator - arunumd<br />
+Driver    - zzimits<br /><br />
 
-For Part 2
-Navigator - AdarshJS
-Driver    - s-niket
+**For Part 2**<br />
+Navigator - AdarshJS<br />
+Driver    - s-niket<br />
 
-## Notes 
+## Notes (by Part 2 Team members)
 
 Added a data member: 'sumOfErrors' in include/PID_Controller.hpp to incorporate sum of all previous errors needed 
 for integration of errors.
 
 To increase the coverage, we commented out the set methods in the app/PID_Controller.cpp as they were redundant for this application
 
-## TODO 
+## TODO (by Part 2 Team Members)
 
 Need better test cases to test the code accuracy. Can include a convergence test when the compute method is iterated over time. 
 
@@ -29,6 +29,10 @@ Need updated class diagram to incorporate changes
 Need a block diagram showing the basic design of the system (A PID controller block in a control loop)
 
 Change the name of the 'computeGain()' to 'computeControllerOutput()' to be logically correct
+
+## Notes (by Part 1 Team Members)
+
+In light of the suggestions made by Part 2 team members, an additional data member called "sumOfErrors" was incorporated as part of the class PidController. The same has been updated in the UML Class Diagram.
 
 ## Overview
 
