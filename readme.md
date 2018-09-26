@@ -1,6 +1,6 @@
 # PID Controller
-[![Build Status](https://travis-ci.org/s-niket/PIDController.svg?branch=master)](https://travis-ci.org/s-niket/PIDController)
-[![Coverage Status](https://coveralls.io/repos/github/s-niket/PIDController/badge.svg?branch=master)](https://coveralls.io/github/s-niket/PIDController?branch=master)
+[![Build Status](https://travis-ci.org/arunumd/PIDController.svg?branch=master)](https://travis-ci.org/arunumd/PIDController)
+[![Coverage Status](https://coveralls.io/repos/github/arunumd/PIDController/badge.svg?branch=master)](https://coveralls.io/github/arunumd/PIDController?branch=master)
 ---
 
 ## Authors
